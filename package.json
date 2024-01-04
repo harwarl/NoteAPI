@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "http-status": "^1.7.3",
+    "joi": "^17.11.0",
+    "joi-password": "^4.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "node-pg-migrate": "^6.2.2",
+    "nodemon": "^3.0.2",
+    "pg": "^8.11.3"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "migrate:up": "node-pg-migrate up",
+    "migrate:down": "node-pg-migrate down",
+    "migrate:redo": "node-pg-migrate redo",
+    "migrate:create": "node-pg-migrate create"
+  },
+  "name": "NoteAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/harwarl/NoteAPI.git",
+  "author": "harwarl <harwarl87@gmail.com>",
+  "license": "MIT"
+}
