@@ -65,18 +65,18 @@ Cross-Origin Resource Sharing (CORS) is configured to allow specific headers, me
 
 #### Note Routes: /api/notes
 
-`/`: Get all user notes. [POST]
-`/:id`: Get a specific note by ID. [GET]
-`/`: Create a new note. [POST]
-`/:id/share`: Share a note. [POST]
-`/:id`: Update a note. [PUT]
-`/:id`: Delete a note. [DELETE]
+==> `/`: Get all user notes. [GET]
+==> `/:id`: Get a specific note by ID. [GET]
+==> `/`: Create a new note. [POST]
+==> `/:id/share`: Share a note. [POST]
+==> `/:id`: Update a note. [PUT]
+==> `/:id`: Delete a note. [DELETE]
 
 #### Other note Routes /api
 
-`/shared/:id`: Get a shared note. [GET]
-`/search`: Search notes. [GET]
-`/`: Root route providing information about the API.
+==> `/shared/:id`: Get a shared note. [GET]
+==> `/search`: Search notes. [GET]
+==> `/`: Root route providing information about the API.
 
 ### Usage
 
